@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-logging-ex"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Yakovlev <job.yakovlev.alexander@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = {extras = ["standart"], version = "^0.24.0.post1"}
+fastapi = "^0.104.1"
+gunicorn = {extras = ["standart"], version = "^21.2.0"}
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
